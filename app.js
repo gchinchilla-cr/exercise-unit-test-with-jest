@@ -22,7 +22,7 @@ function fromDollarToYen(monto_dolar){
 //Yen to Pound
 const yen_pound=102.32
 function fromYenToPound(monto_yen){
-    return euro_yen/euro_pound
+    return monto_yen*yen_pound
 }
 
 // exporta la función para usarla en otros archivos 
